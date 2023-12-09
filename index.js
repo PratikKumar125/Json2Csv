@@ -1,18 +1,11 @@
-function handle(data, options) {
-  const delimiter = options.delimiter || ",";
-  let header = "";
-  for (const key in data[0]) {
-    let keys = key.split(".");
-    header = header + keys[keys.length - 1] + delimiter;
-  }
-  header = header + "\n";
-  data.forEach((curr) => {
-    for (const key in curr) {
-      const value = curr[key] && String(curr[key]).replace(delimiter, ";");
-      header = header + (value ?? "NA") + delimiter;
-    }
-    header = header + "\n";
-  });
-  return header;
-}
-module.exports = handle;
+const json2csv = require("jsontocsvbuffer");
+const data = [
+  {
+    "user.name.first": "Pratik",
+    "user.name.last": "Kumar",
+    "user.email": "pratik@squareboat.com",
+    dob: "22-10-2003",
+  },
+];
+const buffer = json2csv(data, { delimiter: "$" });
+console.log(buffer);
