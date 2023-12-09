@@ -1,0 +1,22 @@
+{
+  "name": "json2csv",
+  "version": "1.1.0",
+  "description": "json2csv is a lightweight Node.js module that transforms JSON objects into CSV format with several powerful features",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PratikKumar125/Json2Csv.git"
+  },
+  "keywords": [
+    "Json2Csv"
+  ],
+  "author": "Pratik Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PratikKumar125/Json2Csv/issues"
+  },
+  "homepage": "https://github.com/PratikKumar125/Json2Csv#readme"
+}
