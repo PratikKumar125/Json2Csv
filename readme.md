@@ -1,10 +1,10 @@
-# json2csv
+# jsontocsv
 
-[![npm version](https://badge.fury.io/js/json2csv.svg)](https://badge.fury.io/js/json2csv)
+[![npm version](https://badge.fury.io/js/jsontocsv.svg)](https://badge.fury.io/js/jsontocsv)
 
 ## Overview
 
-`json2csv` is a versatile Node.js module designed to effortlessly transform JSON objects into CSV format. Whether you're dealing with complex, nested structures or simple key-value pairs, `json2csv` provides powerful features for easy conversion.
+`jsontocsv` is a versatile Node.js module designed to effortlessly transform JSON objects into CSV format. Whether you're dealing with complex, nested structures or simple key-value pairs, `jsontocsv` provides powerful features for easy conversion.
 
 ### Features
 
@@ -19,12 +19,12 @@
 Install the package using npm:
 
 ```bash
-npm install json2csv
+npm install jsontocsv
 
 
 ### Installation
 
-const json2csv = require('json2csv');
+const json2csv = require('jsontocsv');
 
 const data = [
   {"user.name.first": "Pratik", "user.name.last": "Kumar", "user.email": "pratik@pratik.com", "dob": "09-11-2023"};
