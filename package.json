@@ -1,7 +1,7 @@
 {
-  "name": "jsontocsv",
+  "name": "jsontocsvbuffer",
   "version": "1.1.0",
-  "description": "jsontocsv is a lightweight Node.js module that transforms JSON objects into CSV format with several powerful features",
+  "description": "jsontocsvbuffer is a lightweight Node.js module that transforms JSON objects into CSV format with several powerful features",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,10 +1,10 @@
-# jsontocsv
+# jsontocsvbuffer
 
-[![npm version](https://badge.fury.io/js/jsontocsv.svg)](https://badge.fury.io/js/jsontocsv)
+[![npm version](https://badge.fury.io/js/jsontocsvbuffer.svg)](https://badge.fury.io/js/jsontocsvbuffer)
 
 ## Overview
 
-`jsontocsv` is a versatile Node.js module designed to effortlessly transform JSON objects into CSV format. Whether you're dealing with complex, nested structures or simple key-value pairs, `jsontocsv` provides powerful features for easy conversion.
+`jsontocsvbuffer` is a versatile Node.js module designed to effortlessly transform JSON objects into CSV format. Whether you're dealing with complex, nested structures or simple key-value pairs, `jsontocsvbuffer` provides powerful features for easy conversion.
 
 ### Features
 
@@ -19,12 +19,12 @@
 Install the package using npm:
 
 ```bash
-npm install jsontocsv
+npm install jsontocsvbuffer
 
 
 ### Installation
 
-const json2csv = require('jsontocsv');
+const json2csv = require('jsontocsvbuffer');
 
 const data = [
   {"user.name.first": "Pratik", "user.name.last": "Kumar", "user.email": "pratik@pratik.com", "dob": "09-11-2023"};
